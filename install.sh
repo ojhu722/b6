@@ -8,7 +8,7 @@ cat <<EOL > .devcontainer/devcontainer.json
             "version": "latest"
         }
     },
-    "postStartCommand": "python3 /workspaces/ddos/vikku.py",
+    "postStartCommand": "python3 /workspaces/bgmi_ddos/vikku.py",
     "customizations": {
         "vscode": {
             "settings": {
